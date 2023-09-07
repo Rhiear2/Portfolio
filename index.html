@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Rhiea</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Rhiea</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi, it's me Rhiea P</h2>
+                <p class="hero_desc">A Software Engineering Graduate who is seeking to find the opportunity to work in a challenging working environment that will encourage me to improve and learn new and necessary skills. </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-5">
+                <img src="images/aboutpic1.jpeg" width="400" height="500" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-5">
+                <p>My name is Rhiea. I'm an BE student at Dhanalakshmi collge of engineering in stream of Computer . I was born and raised in Chennai.
+                   My short-term goal could be completing a relevant development or cloud certification and become proficient programmers. My long-term goal could be running my own Dev team as the Director of Engineering or HR of a company.
+                   I have good problem solving skills.If a work is given in my hands I will do it in clean and efficient manner.I have decent knowledge about web development front-end.
+                   I like to grow pets, especially dogs and cats,which can reduce stress, anxiety, and depression, ease loneliness, encourage exercise and playfulness, and even improve your cardiovascular health.
+                </p>
+               
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="Skills">
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Python </h4>
+                        <p class="card-text mt-3">Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Java</h4>
+                        <p class="card-text mt-3">
+                            What is Java knowledge?
+                            Java Developer Skills You Must Have (2023) - InterviewBit
+                            It's a compiled language with object code that isn't limited to a single processor or machine, making it ideal for cross-platform applications like web apps and server-side programming.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">HTML</h4>
+                        <p class="card-text mt-3"> HTML is a markup language used to format/structure a web page
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">Css</h4>
+                        <p class="card-text mt-3">CSS is a design language that you use to make your web page look nice and presentable.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">Javascript</h4>
+                        <p class="card-text mt-3">JavaScript is a powerful programming language that can add interactivity to a website.
+                    </div>
+                </div>  
+            </div>
+
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="Projects">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imcagen.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Image Caption Generator</h4>
+                            <p class="card-text">: Image captioning means automatically 
+                                generating a caption for an image.In this project, the use of CNN is to generate vocabulary describing the images and  LSTM to accurately structure meaningful sentences using the generated keywords.
+                                </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="photo_editor.jpg" alt="Card image" style="width:100%" height="200">
+                        <div class="card-body">
+                            <h4 class="card-title">Photo Editor</h4>
+                            <p class="card-text">Software that allows images to be edited and also converted to different graphics formats. Image editors typically deal with only bitmapped images such as GIFs, JPEGs and BMPs; however, some editors support both bitmaps and illustrations </br></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="langtrans.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Language Generator</h4>
+                            <p class="card-text">A Language Generator is an AI-powered tool that can generate text, such as character dialogue, item descriptions, and world-building elements.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+            </div>
+    </section>
+    <section class="container section" id="Details">
+        <h1 class="text-center">More About Me</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-layer-group"></i>
+                        <h4 class="card-title mt-3">Clean & Efficient</h4>
+                        <p class="card-text mt-3">I have good problem solving skills.
+
+
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Web Development</h4>
+                        <p class="card-text mt-3">
+                            I have decent knowledge about web development front-end.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.821457830053!2d80.12737258607302!3d12.977561354200189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fd054d1e761%3A0x35668cfa7db5c06f!2sPasumpon%20Nagar%2C%20Pammal%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1691522427757!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgradetype your location, generate html code and copy the html  -->
+                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.821457830053!2d80.12737258607302!3d12.977561354200189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fd054d1e761%3A0x35668cfa7db5c06f!2sPasumpon%20Nagar%2C%20Pammal%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1691522427757!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.821457830053!2d80.12737258607302!3d12.977561354200189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fd054d1e761%3A0x35668cfa7db5c06f!2sPasumpon%20Nagar%2C%20Pammal%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1691522427757!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">" id="get-data-forembedmap">https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.821457830053!2d80.12737258607302!3d12.977561354200189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fd054d1e761%3A0x35668cfa7db5c06f!2sPasumpon%20Nagar%2C%20Pammal%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1691522427757!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="contact" id="contact-me">
+                <div class="container">
+                    <div class="contact-content">
+                        <h2>Contact Me</h2>
+                        <p class="mail">
+                            Get in touch with me <i class="fas fa-arrow-right"></i> rhieaprabakaran@gmail.com
+                        </p>
+                        <p class="mail">
+                           Contact me @ <i class="fas fa-arrow-right"></i> 9790749291
+                        </p>
+                        <p class="links">Or find me on:</p>
+                        <a href="https://www.linkedin.com/in/rhiea-prabakaran-a7173a275" target="blank"><i class="fab fa-linkedin">
+                                Linkedin</i></a>
+                       
+                        <a href="https://github.com/Rhiear2" target="blank"><i class="fab fa-github"></i> Github</a>
+                       
+                    </div>
+                </div>
+            </div>
+        
+    
+               
+            </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
